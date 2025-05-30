@@ -1,0 +1,46 @@
+ .App {
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.product-list, .cart-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap: 10px;
+}
+
+form input {
+  padding: 5px;
+}
+
+form button {
+  padding: 5px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background: #0056b3;
+}
