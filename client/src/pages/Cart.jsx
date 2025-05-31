@@ -52,7 +52,7 @@ function Cart() {
           >
             {/* Rasm */}
             <img
-              src={item.image || 'https://via.placeholder.com/80'}
+              src={item.imageUrl || 'https://via.placeholder.com/80'} // imageUrl ishlatiladi
               alt={item.name}
               className="w-20 h-20 object-cover rounded mr-4"
             />
